@@ -3,7 +3,7 @@
     "target": "ES2022",
     "outDir": "./dist/js/",
     "noEmitOnError": true,
-    "module": "ES2022",
+    "module": "NodeNext",
     "moduleResolution": "nodenext",
     "types": ["node"],
     "experimentalDecorators": true

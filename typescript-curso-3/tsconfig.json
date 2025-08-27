@@ -5,7 +5,11 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "lib": ["DOM", "ESNext"],
+        "types": [],
+        "typeRoots": ["./node_modules/@types"],
+        "experimentalDecorators": true
     },
     "include": ["app/src/**/*"]
 }
